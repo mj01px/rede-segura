@@ -1,0 +1,39 @@
+:root {
+  /* Cores do panfleto Rede Segura */
+  --creme: #FFF4E4;
+  --tinta: #1F1A3D;
+  --anil: #3442E0;
+  --anil-claro: #E3E6FF;
+  --laranja: #FF7A35;
+  --laranja-escuro: #E8591C;
+  --laranja-claro: #FFE2CF;
+  --lilas: #D9CCFF;
+  --lilas-sombra: #B9A6FF;
+  --lilas-onda: #E4DAFF;
+  --framboesa: #E5384F;
+  --framboesa-claro: #FFF0F2;
+  --pessego: #FFD9C2;
+  --branco: #FFFFFF;
+  --texto-suave: #4A4466;
+  --linha: #E7DCCB;
+
+  /* Fontes */
+  --font-display: 'Bricolage Grotesque', system-ui, sans-serif;
+  --font-body: 'Figtree', system-ui, sans-serif;
+  --font-hand: 'Gochi Hand', cursive;
+
+  /* Bordas e sombras sólidas, só nas peças principais */
+  --border: 3px solid var(--tinta);
+  --shadow: 10px 10px 0 var(--lilas-sombra);
+  --shadow-sm: 5px 5px 0 var(--tinta);
+
+  /* A+ multiplica a base de 18px */
+  --font-scale: 1;
+
+  --container: 1240px;
+  --topbar-h: 76px;
+}
+
+html[data-large-text='true'] {
+  --font-scale: 1.15;
+}
