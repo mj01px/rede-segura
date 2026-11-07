@@ -23,7 +23,7 @@
 
 Feito para ser aberto no celular, depois de receber o panfleto. Tudo em português simples, sem termo técnico, dividido em três momentos: antes de conectar, na hora de conectar e se já conectou.
 
-<img src="docs/vitrine.png" alt="Quatro celulares mostrando o site: a abertura, a comparação com a página falsa, o passo a passo para apagar redes abertas e o que fazer se já digitou o e-mail e a senha." width="100%">
+<img src="docs/vitrine.png" alt="O site aberto no computador, com os três momentos no topo e os botões A+ e Ouvir, e no celular a comparação com a página falsa, com as dicas marcadas." width="100%">
 
 - **Antes de conectar:** o golpe em 30 segundos e uma lista rápida para conferir antes de tocar na rede.
 - **Página normal ou falsa?** As duas telas de login do Wi-Fi lado a lado, com anotações do que é normal e do que é golpe.
