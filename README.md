@@ -65,5 +65,5 @@ docs/             imagens deste README
 
 ## Quem fez
 
-**[Mauro Junior](https://github.com/mj01px)**, **[Pablo de Souza](https://github.com/1pablex)**, **[Matheus Henrique](https://github.com/Zipl1n)** e **Victor Teixeira**<br>
+**[Mauro Junior](https://github.com/mj01px)**, **[Pablo de Souza](https://github.com/1pablex)** e **[Matheus Henrique](https://github.com/Zipl1n)**<br>
 Engenharia de Software, 8B Noturno · Universidade de Mogi das Cruzes · 2026

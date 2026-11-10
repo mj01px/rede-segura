@@ -18,7 +18,7 @@ export function Footer() {
         <div className="footer__credits">
           <div>
             <p className="footer__strong">Engenharia de Software · 8B Noturno · 2026</p>
-            <p>Mauro Junior, Pablo de Souza, Matheus Henrique e Victor Teixeira</p>
+            <p>Mauro Junior, Pablo de Souza e Matheus Henrique</p>
           </div>
           <p className="footer__privacy">Este site não coleta nenhum dado seu.</p>
         </div>
