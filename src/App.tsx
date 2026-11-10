@@ -11,6 +11,7 @@ import { MomentAfter } from './sections/MomentAfter';
 import { MomentBefore } from './sections/MomentBefore';
 import { MomentDuring } from './sections/MomentDuring';
 import { Pamphlet } from './sections/Pamphlet';
+import { VideoProof } from './sections/VideoProof';
 
 const CREME = '#FFF4E4';
 const LILAS = '#D9CCFF';
@@ -29,6 +30,7 @@ export function App() {
 
       <main id="conteudo-principal">
         <Hero />
+        <VideoProof />
         <MomentBefore />
         <Wave fill={LILAS} background={CREME} />
         <MomentDuring />

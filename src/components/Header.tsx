@@ -13,7 +13,10 @@ export function Header({ activeMoment }: { activeMoment: MomentId | null }) {
       <div className="topbar__inner">
         <a className="brand" href="#inicio">
           <Mascot size={40} />
-          <span className="brand__name">Rede Segura</span>
+          <span className="brand__text">
+            <span className="brand__name">Rede Segura</span>
+            <span className="brand__sub">Universidade de Mogi das Cruzes</span>
+          </span>
         </a>
         <nav className="moments-nav" aria-label="Os 3 momentos">
           {MOMENTS.map((moment) => (
@@ -27,6 +30,7 @@ export function Header({ activeMoment }: { activeMoment: MomentId | null }) {
             </a>
           ))}
         </nav>
+        <span className="topbar__tag">Projeto de extensão</span>
       </div>
     </header>
   );

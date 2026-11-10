@@ -1808,3 +1808,161 @@ button {
   font-weight: 800;
   color: var(--laranja);
 }
+
+/* ==========================================================================
+   UMC E PROJETO DE EXTENSÃO
+   ========================================================================== */
+.brand__text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+
+.brand__sub {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--texto-suave);
+  white-space: nowrap;
+}
+
+.topbar__tag {
+  flex-shrink: 0;
+  padding: 7px 14px;
+  font-size: 0.78rem;
+  font-weight: 800;
+  color: var(--tinta);
+  background: var(--laranja-claro);
+  border: 2px solid var(--tinta);
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+@media (max-width: 520px) {
+  .topbar__tag {
+    display: none;
+  }
+}
+
+.footer__project {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14px 18px;
+  margin-top: 40px;
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.footer__project p {
+  max-width: 44em;
+}
+
+.footer__badge {
+  padding: 8px 16px;
+  font-size: 0.85rem;
+  font-weight: 800;
+  color: var(--tinta);
+  background: var(--laranja);
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+/* ==========================================================================
+   VÍDEO (EM PÉ, 9:16)
+   ========================================================================== */
+.proof {
+  padding: 90px 0;
+  color: var(--creme);
+  background: var(--tinta);
+}
+
+.proof .lead {
+  color: var(--creme);
+}
+
+.proof .hand {
+  color: var(--laranja);
+}
+
+.proof__text {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.proof__points {
+  display: grid;
+  gap: 14px;
+  margin-top: 8px;
+  padding: 0;
+  list-style: none;
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.proof__points li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.proof__num {
+  display: inline-grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 34px;
+  height: 34px;
+  font-family: var(--font-display);
+  font-weight: 800;
+  color: var(--tinta);
+  background: var(--laranja);
+  border-radius: 50%;
+}
+
+.proof__video {
+  justify-self: center;
+  width: min(340px, 100%);
+  margin: 0;
+}
+
+.proof__frame {
+  aspect-ratio: 9 / 16;
+  overflow: hidden;
+  background: #000;
+  border: 3px solid var(--creme);
+  border-radius: 26px;
+  box-shadow: 10px 10px 0 var(--laranja);
+}
+
+.proof__frame video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.proof__credit {
+  margin-top: 18px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.proof__credit a {
+  color: var(--laranja);
+  font-weight: 800;
+}
+
+.proof__notice {
+  max-width: 30em;
+  padding: 14px 18px;
+  font-size: 0.98rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: var(--tinta);
+  background: var(--laranja-claro);
+  border-left: 6px solid var(--laranja);
+  border-radius: 12px;
+}
