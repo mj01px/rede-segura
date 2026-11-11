@@ -1966,3 +1966,48 @@ button {
   border-left: 6px solid var(--laranja);
   border-radius: 12px;
 }
+
+/* Celular: nos 3 passos do momento 1, o texto fica ao lado da bolinha. */
+@media (max-width: 640px) {
+  .flow {
+    gap: 26px;
+    margin-top: 40px;
+  }
+
+  .flow__step {
+    display: grid;
+    grid-template-columns: 88px minmax(0, 1fr);
+    grid-template-rows: auto auto;
+    column-gap: 18px;
+    row-gap: 4px;
+    align-items: center;
+  }
+
+  .flow__circle {
+    grid-row: 1 / span 2;
+    width: 88px;
+    height: 88px;
+    margin-bottom: 0;
+  }
+
+  .flow__circle svg {
+    width: 44px;
+    height: 44px;
+  }
+
+  .flow__num {
+    width: 30px;
+    height: 30px;
+    font-size: 0.9rem;
+  }
+
+  .flow__title {
+    align-self: end;
+    font-size: 1.2rem;
+  }
+
+  .flow__text {
+    align-self: start;
+    font-size: 0.95rem;
+  }
+}
