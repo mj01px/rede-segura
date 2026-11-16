@@ -1,69 +1,71 @@
 <p align="center">
-  <img src="docs/banner.png" alt="Rede Segura: no Wi-Fi grátis, nunca digite sua senha! Ilustração de um celular com uma página de Wi-Fi falsa pedindo o e-mail e a senha dele, ao lado do mascote, a rede falsa de óculos e bigode." width="100%">
+  <img src="docs/banner.png" alt="Rede Segura: on free Wi-Fi, never type your password! Illustration of a phone showing a fake Wi-Fi page asking for your email and its password, next to the mascot, the fake network wearing glasses and a mustache." width="100%">
 </p>
 
 <p align="center">
-  Um <b>site</b> e um <b>panfleto</b> para ensinar pessoas mais velhas e suas famílias<br>
-  a não cair no golpe do Wi-Fi falso.
+  A <b>website</b> and a <b>flyer</b> that teach older adults and their families<br>
+  not to fall for the fake Wi-Fi scam.
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/React-18-3442E0?labelColor=555" alt="React 18">
   <img src="https://img.shields.io/badge/TypeScript-strict-1F1A3D?labelColor=555" alt="TypeScript strict">
   <img src="https://img.shields.io/badge/Vite-5-3442E0?labelColor=555" alt="Vite 5">
-  <img src="https://img.shields.io/badge/acess%C3%ADvel-A%2B%20e%20ouvir-E8591C?labelColor=555" alt="Acessível: A+ e ouvir">
-  <img src="https://img.shields.io/badge/dados%20coletados-nenhum-E5384F?labelColor=555" alt="Dados coletados: nenhum">
+  <img src="https://img.shields.io/badge/accessible-A%2B%20and%20listen-E8591C?labelColor=555" alt="Accessible: A+ and listen">
+  <img src="https://img.shields.io/badge/data%20collected-none-E5384F?labelColor=555" alt="Data collected: none">
 </p>
 
-## O golpe
+> The website and the flyer are in Brazilian Portuguese, since they were made for a Brazilian audience.
 
-<img src="docs/golpe.png" alt="Como o golpe acontece: 1, criam uma rede falsa com o nome parecido com a do lugar. 2, pedem seu e-mail e a senha dele numa página que imita a do Wi-Fi. 3, entram no seu e-mail e trocam a senha das suas outras contas. Regra de ouro: pediu a senha do seu e-mail ou para instalar algo? Feche a página." width="100%">
+## The scam
 
-## O site
+<img src="docs/golpe.png" alt="How the scam works: 1, they create a fake network with a name similar to the venue's. 2, they ask for your email and its password on a page that mimics the Wi-Fi login. 3, they get into your email and change the passwords of your other accounts. Golden rule: asked for your email password or to install something? Close the page." width="100%">
 
-Feito para ser aberto no celular, depois de receber o panfleto. Tudo em português simples, sem termo técnico, dividido em três momentos: antes de conectar, na hora de conectar e se já conectou.
+## The website
 
-<img src="docs/vitrine.png" alt="O site aberto no computador, com os três momentos no topo e os botões A+ e Ouvir, e no celular a comparação com a página falsa, com as dicas marcadas." width="100%">
+Designed to be opened on a phone after receiving the flyer. Everything is written in plain language, with no technical jargon, split into three moments: before connecting, while connecting, and if you already connected.
 
-- **Antes de conectar:** o golpe em 30 segundos e uma lista rápida para conferir antes de tocar na rede.
-- **Página normal ou falsa?** As duas telas de login do Wi-Fi lado a lado, com anotações do que é normal e do que é golpe.
-- **Não deixe o celular conectar sozinho:** o passo a passo para apagar as redes abertas salvas no Android e no iPhone, com as telas do celular.
-- **Se já conectou:** o que fazer na hora, em ordem, para o golpista perder o acesso.
-- **Família:** uma mensagem pronta para mandar no grupo, com botão de copiar e de compartilhar.
+<img src="docs/vitrine.png" alt="The website open on a computer, with the three moments at the top and the A+ and Listen buttons, and on the phone the comparison with the fake page, with the tips highlighted." width="100%">
 
-## Pensado para quem tem mais idade
+- **Before connecting:** the scam in 30 seconds and a quick checklist to go through before tapping the network.
+- **Real or fake page?** Both Wi-Fi login screens side by side, annotated with what is normal and what is a scam.
+- **Don't let your phone connect on its own:** a step-by-step guide to removing saved open networks on Android and iPhone, with screenshots of the phone.
+- **If you already connected:** what to do right away, in order, so the scammer loses access.
+- **Family:** a ready-made message to send to the family group chat, with copy and share buttons.
 
-- **A+** aumenta o texto do site inteiro, e **Ouvir** lê em voz alta a parte que está na tela.
-- Botões grandes, contraste alto e foco visível para quem usa o teclado.
-- Nenhum dado é coletado: sem cadastro, sem formulário, sem rastreamento.
+## Built for older users
 
-## Rodando o projeto
+- **A+** enlarges the text across the whole site, and **Listen** reads the visible section aloud.
+- Large buttons, high contrast, and a visible focus indicator for keyboard users.
+- No data is collected: no sign-up, no forms, no tracking.
+
+## Running the project
 
 ```bash
 npm install
-npm run dev     # abre o site no endereço que aparecer no terminal
-npm run build   # gera a versão final em dist/
+npm run dev     # opens the site at the address shown in the terminal
+npm run build   # builds the production version into dist/
 ```
 
 <details>
-<summary><b>Estrutura das pastas</b></summary>
+<summary><b>Folder structure</b></summary>
 
 ```
 src/
-├── components/   cabeçalho, rodapé, mascote, celular, página do Wi-Fi e ícones
-├── sections/     uma parte da página por arquivo (abertura, os três momentos, família...)
-├── hooks/        A+, leitura em voz alta, seção ativa, copiar e compartilhar
-├── lib/          leitura em voz alta
-├── styles/       cores e estilos, tirados do panfleto
-└── types/        tipos compartilhados
+├── components/   header, footer, mascot, phone, Wi-Fi page, and icons
+├── sections/     one page section per file (opening, the three moments, family...)
+├── hooks/        A+, read-aloud, active section, copy and share
+├── lib/          read-aloud
+├── styles/       colors and styles, taken from the flyer
+└── types/        shared types
 
-public/panfleto/  frente e verso do panfleto
-docs/             imagens deste README
+public/panfleto/  front and back of the flyer
+docs/             images for this README
 ```
 
 </details>
 
-## Quem fez
+## Authors
 
-**[Mauro Junior](https://github.com/mj01px)**, **[Pablo de Souza](https://github.com/1pablex)** e **[Matheus Henrique](https://github.com/Zipl1n)**<br>
-Engenharia de Software, 8B Noturno · Universidade de Mogi das Cruzes · 2026
+**[Mauro Junior](https://github.com/mj01px)**, **[Pablo de Souza](https://github.com/1pablex)**, and **[Matheus Henrique](https://github.com/Zipl1n)**<br>
+Software Engineering, 8B Evening · Universidade de Mogi das Cruzes · 2026
