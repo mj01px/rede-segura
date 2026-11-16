@@ -15,8 +15,6 @@
   <img src="https://img.shields.io/badge/data%20collected-none-E5384F?labelColor=555" alt="Data collected: none">
 </p>
 
-> The website and the flyer are in Brazilian Portuguese, since they were made for a Brazilian audience.
-
 ## The scam
 
 <img src="docs/golpe.png" alt="How the scam works: 1, they create a fake network with a name similar to the venue's. 2, they ask for your email and its password on a page that mimics the Wi-Fi login. 3, they get into your email and change the passwords of your other accounts. Golden rule: asked for your email password or to install something? Close the page." width="100%">
